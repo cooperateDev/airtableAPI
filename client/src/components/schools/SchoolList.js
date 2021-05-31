@@ -15,7 +15,7 @@ class SchoolList extends React.Component {
     }
   
     componentDidMount() {
-      fetch('https://api.airtable.com/v0/appjvmJqlLc4cm9CM/Table%201?api_key=keycGySWvM9Wh654X')
+      fetch('https://api.airtable.com/v0/appjvmJqlLc4cm9CM/Table%201?api_key=Your_API_KEY')
         .then(res => res.json())
         .then(res => {
           
